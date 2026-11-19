@@ -30,6 +30,7 @@ export default function MobileTabs() {
           </Link>
         );
       })}
+      {/* Upload tab turned off for the public site (see UPLOADS_ENABLED in lib/server/owner.ts)
       {owner && (
         <button type="button" onClick={() => useOwner.getState().openUpload()} className="relative flex flex-1 flex-col items-center gap-1 text-[11px] font-medium text-sub">
           <motion.span whileTap={{ scale: 0.85 }} className="grid place-items-center">
@@ -37,7 +38,7 @@ export default function MobileTabs() {
           </motion.span>
           Upload
         </button>
-      )}
+      )} */}
     </nav>
   );
 }

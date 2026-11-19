@@ -69,6 +69,11 @@ the extras, copy `.env.example` to `.env.local` and fill in what you need:
 | `TELEGRAM_API_ID`, `TELEGRAM_API_HASH` | App credentials from [my.telegram.org](https://my.telegram.org). They turn on uploads, which are stored in a private channel in your Telegram account. |
 | `OWNER_PASSWORD` | Requires a password (6+ characters) before anyone can upload. **Set this on any public deployment.** |
 
+Uploads are currently **switched off** in code, whatever these settings say: `UPLOADS_ENABLED` in
+`lib/server/owner.ts` is `false`, so nobody sees the upload tools and the upload, delete and
+Telegram API routes refuse every request. Set it to `true` (and uncomment the Upload buttons in
+`components/shell/TopBar.tsx` and `components/shell/MobileTabs.tsx`) only on your own machine.
+
 `.env.local` and `data/telegram.json` (the Telegram sign-in session) contain secrets. Both are
 ignored by git, so keep them that way.
 

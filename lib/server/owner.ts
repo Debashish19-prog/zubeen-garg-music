@@ -10,6 +10,13 @@ import { NextResponse } from 'next/server';
  * cookie holding an HMAC of the issue time, keyed by the password, so changing the password signs
  * every browser out. Everyone else can listen but never sees the upload tools.
  */
+/**
+ * UPLOAD SWITCH. Off for the public site: nobody is treated as the owner, so every upload tool is
+ * hidden (the client reads `owner` from /api/owner) and the upload, delete and Telegram routes all
+ * answer 401, even to someone calling the API directly. Set to true only on your own machine.
+ */
+const UPLOADS_ENABLED = false;
+
 const COOKIE = 'zg_owner';
 const MAX_AGE = 60 * 60 * 24 * 30; // 30 days
 
@@ -34,6 +41,7 @@ export function tokenValid(token: string | undefined): boolean {
 }
 
 export async function isOwner(): Promise<boolean> {
+  if (!UPLOADS_ENABLED) return false;
   if (!authEnabled()) return true;
   return tokenValid((await cookies()).get(COOKIE)?.value);
 }
@@ -43,6 +51,7 @@ const g = globalThis as unknown as { __zgOwnerFails?: { n: number; until: number
 const fails = (g.__zgOwnerFails ??= { n: 0, until: 0 });
 
 export async function login(attempt: string, secure: boolean): Promise<{ ok: true } | { ok: false; error: string; status: number }> {
+  if (!UPLOADS_ENABLED) return { ok: false, error: 'Uploads are turned off on this site.', status: 403 };
   if (!authEnabled()) return { ok: true };
   if (!ownerConfigured()) return { ok: false, error: 'Set OWNER_PASSWORD (6+ characters) in web/.env.local, then restart the server.', status: 503 };
   if (Date.now() < fails.until) return { ok: false, error: 'Too many wrong passwords. Try again in a minute.', status: 429 };

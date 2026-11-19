@@ -128,7 +128,8 @@ export default function TopBar() {
         </Suspense>
       </div>
       <div className="flex min-w-[180px] shrink-0 items-center justify-end gap-1 pr-2">
-        <UploadButton />
+        {/* Upload button turned off for the public site (see UPLOADS_ENABLED in lib/server/owner.ts) */}
+        {/* <UploadButton /> */}
         <Link href="/about" data-tip="About Zubeen and this site" data-tip-pos="bottom" className="flex h-8 items-center gap-1.5 rounded-full px-3 text-[14px] font-bold text-sub transition-colors hover:scale-[1.03] hover:text-white">
           <IconInfo size={18} /> About
         </Link>
