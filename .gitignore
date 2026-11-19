@@ -1,0 +1,25 @@
+# Dependencies and build output (rebuilt by npm install / npm run build)
+node_modules
+.next
+*.tsbuildinfo
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+# Telegram storage: the session in telegram.json can sign in to your Telegram account
+data/telegram.json
+
+# Per-user state written by the server at runtime
+data/library.json
+data/colors.json
+data/yt-cache.json
+data/uploads.json
+data/covers/
+
+# Working caches for the YouTube matching scripts (large, rebuilt by the scripts)
+data/yt-search-cache.json
+data/ytmusic-cache/
+
+# OS files
+.DS_Store

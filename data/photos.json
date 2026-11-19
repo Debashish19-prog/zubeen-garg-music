@@ -1,0 +1,173 @@
+[
+ {
+  "id": "stage-red",
+  "src": "/photos/stage-red.jpg",
+  "w": 1500,
+  "h": 1000,
+  "caption": "On stage with his guitar",
+  "credit": "people.com",
+  "url": "https://people.com/thmb/768eLU4WkHAtnkq_fs6qhnI2GUQ=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2):format(webp)/Zubeen-Garg-Rongali-Festival-092125-5734f91408fa46a88879a0a7916f37d4.jpg"
+ },
+ {
+  "id": "stage-purple",
+  "src": "/photos/stage-purple.jpg",
+  "w": 1600,
+  "h": 900,
+  "caption": "Under the lights",
+  "credit": "wallpaperaccess.com",
+  "url": "https://wallpaperaccess.com/full/2716486.jpg"
+ },
+ {
+  "id": "portrait-blue",
+  "src": "/photos/portrait-blue.jpg",
+  "w": 1500,
+  "h": 1000,
+  "caption": "Portrait in a blue jacket",
+  "credit": "people.com",
+  "url": "https://people.com/thmb/kQ4MkD2pE_2QOgXNeuWi1Bmkgo4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(711x340:713x342):format(webp)/Zubeen-Garg-North-East-Festival-092125-1b657664075a46489b53e1666ab64a95.jpg"
+ },
+ {
+  "id": "stage-white",
+  "src": "/photos/stage-white.jpg",
+  "w": 1440,
+  "h": 959,
+  "caption": "Live, in a white tee and a woven cap",
+  "credit": "images.squarespace-cdn.com",
+  "url": "https://images.squarespace-cdn.com/content/v1/5d7fa27ac591f01062106a9f/e6b20618-edcc-4d33-977a-4b40ba656d12/Zubeen+Garg.png"
+ },
+ {
+  "id": "stage-band",
+  "src": "/photos/stage-band.jpg",
+  "w": 1600,
+  "h": 900,
+  "caption": "With his band",
+  "credit": "wallpaperaccess.com",
+  "url": "https://wallpaperaccess.com/full/24332352.jpg"
+ },
+ {
+  "id": "stage-sky",
+  "src": "/photos/stage-sky.jpg",
+  "w": 1600,
+  "h": 900,
+  "caption": "Singing in denim",
+  "credit": "wallpaperaccess.com",
+  "url": "https://wallpaperaccess.com/full/24332440.jpg"
+ },
+ {
+  "id": "stage-hat",
+  "src": "/photos/stage-hat.jpg",
+  "w": 1200,
+  "h": 675,
+  "caption": "A bucket hat and a grin",
+  "credit": "wallpaperaccess.com",
+  "url": "https://wallpaperaccess.com/full/24332560.jpg"
+ },
+ {
+  "id": "avatar",
+  "src": "/photos/avatar.jpg",
+  "w": 900,
+  "h": 900,
+  "caption": "Smiling on stage",
+  "credit": "zubeenphoto.in",
+  "url": "https://zubeenphoto.in/wp-content/uploads/2026/01/ZG-03.jpg"
+ },
+ {
+  "id": "gamosa",
+  "src": "/photos/gamosa.jpg",
+  "w": 800,
+  "h": 1000,
+  "caption": "With the gamosa",
+  "credit": "i.pinimg.com",
+  "url": "https://i.pinimg.com/originals/60/e0/62/60e06298faf7f7d41c38b9dc2ed0e54b.jpg"
+ },
+ {
+  "id": "traditional",
+  "src": "/photos/traditional.jpg",
+  "w": 807,
+  "h": 807,
+  "caption": "In traditional dress",
+  "credit": "zubeenphoto.in",
+  "url": "https://zubeenphoto.in/wp-content/uploads/2026/01/ZG-23.jpg"
+ },
+ {
+  "id": "studio",
+  "src": "/photos/studio.jpg",
+  "w": 1200,
+  "h": 865,
+  "caption": "Studio portrait",
+  "credit": "sprintally.com",
+  "url": "https://sprintally.com/content/images/2025/09/Iconic-Hairstyles-and-Looks-of-Zubeen-Garg-in-Photos.webp"
+ },
+ {
+  "id": "later-years",
+  "src": "/photos/later-years.jpg",
+  "w": 597,
+  "h": 799,
+  "caption": "In later years",
+  "credit": "sprintally.com",
+  "url": "https://sprintally.com/content/images/2025/09/Unseen-Zubeen-Garg-Photo-from-Rare-Albums.webp"
+ },
+ {
+  "id": "guitar-hat",
+  "src": "/photos/guitar-hat.jpg",
+  "w": 720,
+  "h": 900,
+  "caption": "Hat, guitar, spotlight",
+  "credit": "i.pinimg.com",
+  "url": "https://i.pinimg.com/originals/dd/a2/ea/dda2ea5dc0f5edcbd007868dd30438ef.jpg"
+ },
+ {
+  "id": "stage-stripes",
+  "src": "/photos/stage-stripes.jpg",
+  "w": 720,
+  "h": 900,
+  "caption": "In stripes, mid-song",
+  "credit": "i.pinimg.com",
+  "url": "https://i.pinimg.com/originals/25/83/28/258328f1d09254de881a3b87190d6c01.jpg"
+ },
+ {
+  "id": "singing-blue",
+  "src": "/photos/singing-blue.jpg",
+  "w": 1124,
+  "h": 831,
+  "caption": "Mid-note",
+  "credit": "zubeengarg.com",
+  "url": "https://zubeengarg.com/wp-content/uploads/2025/09/ZG-1.jpg"
+ },
+ {
+  "id": "guitar-night",
+  "src": "/photos/guitar-night.jpg",
+  "w": 668,
+  "h": 1000,
+  "caption": "An outdoor night show",
+  "credit": "i.pinimg.com",
+  "url": "https://i.pinimg.com/originals/ef/5c/3b/ef5c3b4a7d9893d41a0c31dc62d462e4.jpg"
+ },
+ {
+  "id": "stage-teal",
+  "src": "/photos/stage-teal.jpg",
+  "w": 665,
+  "h": 1000,
+  "caption": "A spotlight in teal",
+  "credit": "i.pinimg.com",
+  "url": "https://i.pinimg.com/originals/b8/5f/a0/b85fa095e585186277c6c0d2a0b9b5bf.jpg"
+ },
+ {
+  "id": "stage-green",
+  "src": "/photos/stage-green.jpg",
+  "w": 745,
+  "h": 416,
+  "caption": "Festival stage",
+  "credit": "zubeenphoto.in",
+  "url": "https://zubeenphoto.in/wp-content/uploads/2026/01/ZG-04.jpg"
+ },
+ {
+  "id": "guitar-portrait",
+  "src": "/photos/guitar-portrait.jpg",
+  "w": 638,
+  "h": 900,
+  "caption": "Portrait with a guitar",
+  "credit": "i.pinimg.com",
+  "url": "https://i.pinimg.com/originals/9c/9c/95/9c9c95708803f279e1b37687b17f5d43.jpg"
+ }
+]
